@@ -42,14 +42,15 @@ file\_integrity\_checker/
 1. Clone the repository:
 
 
-git clone https://github.com/your-username/file_integrity_checker.git
+git clone https://github.com/neha27-28/integrity-checker.git
 cd file_integrity_checker
 
 
 2. (Optional but recommended) Create a virtual environment:
 
-
+```
 python -m venv venv
+```
 
 3. Activate the virtual environment:
 
@@ -61,13 +62,13 @@ python -m venv venv
 
 * On macOS/Linux:
 
-  ```bash
+  ```
   source venv/bin/activate
   ```
 
 4. Install the required packages:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
@@ -77,13 +78,13 @@ pip install -r requirements.txt
 
 Run the integrity checker using the main Python script or the batch file:
 
-```bash
+```
 python main.py
 ```
 
 Or on Windows:
 
-```bash
+```
 run_integrity.bat
 ```
 
@@ -116,14 +117,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ---
 
-## Author
-
-**Neha Kasera**
-B.Tech Student | Cybersecurity Enthusiast | Developer
-
-```
-
----
-
-You can copy the entire content above into a file named `README.md`. Let me know if you'd also like a `LICENSE`, `.gitignore`, or `requirements.txt` template to complete the repository.
-```
